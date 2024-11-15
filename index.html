@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marwa 
+    </title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 120vh;
+            margin: 0;
+            overflow: auto;
+            background-image: url('https://media2.giphy.com/media/Eqz8ZFUScPHH2/giphy.gif?cid=6c09b952aovktkm6zxoxdjxodqwvr526371tmf57z0y19g30&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
+            background-size: cover;
+            animation: moveRose 10s infinite alternate;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.19);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+            margin: 50% 40px ;
+        }
+
+        .romantic-text {
+          text-align: center;
+            margin-top: 20px;
+            font-size: 28px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.8);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: slideIn 1s ease-in-out;
+            line-height: 1.5;
+            font-family: 'Arial', sans-serif;
+        }
+
+        @keyframes moveRose {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        footer {
+            display: fixed;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: #ffffff;
+            background-color: #000000;
+            font-size: 16px;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            text-align: center;
+            z-index: 999;
+        }
+
+        .navbar-text {
+            font-size: 24px;
+            color: #ffffff;
+            animation: slideIn 1s ease-in-out;
+        }
+        .space{
+          width: 70rem;
+        }
+
+                .apology-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 65% 30px 9px;
+            color: #fff;
+        }
+                .apology2-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px ;
+            color: red;
+        }
+
+        .apology-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .apology-image {
+            width: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            border: 4px solid #fff;
+        }
+        .apology2-image {
+            width: 200px;
+            border-radius: 10%;
+            margin: 0 auto;
+            display: block;
+            border: 4px solid #fff;
+        }
+
+        /* Animations */
+        @keyframes moveRose {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <p class="navbar-text">Marwa 🧸✨</p>
+    </div>
+    <!-- Content Container -->
+    <div class="container">
+        <p class="romantic-text">I love you more than words can express, and I'll spend the rest of my live proving it to you.</p>
+    </div>
+
+ <section class="apology-section">
+   
+        <img src="1.jpg" alt="صورة اعتذار" class="apology-image">
+        <p class="apology-text">أعتذر عن أي شيء سببته لك.</p>
+
+    </section>
+     <section class="apology2-section">
+               <p class="apology-text">مهما حدث لن استطيع مفارقتك </p>
+        <img src="2.jpg" alt="صورة اعتذار" class="apology2-image">
+     </section>
+
+            <br>
+    <!-- Footer -->
+    <footer>
+        <p>Every moment with you feels like a dream, and I never want to wake up.</p>
+    </footer>
+        
+</body>
+</html>
